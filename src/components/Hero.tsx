@@ -18,17 +18,17 @@ export function Hero() {
       />
 
       <div className="relative mx-auto max-w-[1320px] px-5 pb-10 pt-14 sm:px-8 md:pt-20 lg:px-12 lg:pt-24">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
-          <div className="lg:col-span-8">
+        <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-[minmax(0,1fr)_minmax(220px,0.65fr)] md:gap-6 lg:grid-cols-12 lg:gap-6">
+          <div className="min-w-0 md:col-span-1 lg:col-span-8">
             <p
-              className="eyebrow rise flex flex-wrap items-center gap-x-3 gap-y-1"
+              className="eyebrow rise flex items-start gap-3"
               style={{ "--d": "0ms" } as React.CSSProperties}
             >
               <span
-                className="inline-block size-2 rounded-full bg-signal"
+                className="mt-[0.35em] size-2 shrink-0 rounded-full bg-signal"
                 aria-hidden="true"
               />
-              {site.status}
+              <span className="min-w-0">{site.status}</span>
             </p>
 
             <h1
@@ -88,21 +88,21 @@ export function Hero() {
           </div>
 
           <figure
-            className="rise lg:col-span-3 lg:col-start-10"
+            className="rise mx-auto w-full max-w-xs md:col-span-1 md:col-start-2 md:row-start-1 md:max-w-none lg:col-span-4 lg:col-start-9"
             style={{ "--d": "260ms" } as React.CSSProperties}
           >
-            <div className="relative aspect-[4/5] w-full max-w-sm overflow-hidden rounded-sm border border-line lg:max-w-none">
+            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-sm border border-line">
               <Image
                 src="/images/yousef.webp"
                 alt={`Portrait of ${site.name}`}
                 fill
                 priority
-                sizes="(min-width: 1024px) 24vw, (min-width: 640px) 384px, 90vw"
+                sizes="(min-width: 1024px) 32vw, (min-width: 768px) 38vw, 90vw"
                 className="object-cover object-[50%_18%] contrast-[1.03] saturate-[0.85]"
               />
             </div>
 
-            <figcaption className="eyebrow mt-3 flex justify-between gap-4">
+            <figcaption className="eyebrow mt-3 flex flex-wrap justify-between gap-x-4 gap-y-1">
               <span>{site.name}</span>
               <span>{site.location}</span>
             </figcaption>
