@@ -7,7 +7,7 @@ import { site } from "@/data/site";
 
 const channels = [
   { label: "LinkedIn", value: "Yousef Shohber", href: site.links.linkedin, Icon: LinkedinIcon },
-  { label: "GitHub", value: "Joo-Shohber", href: site.links.github, Icon: GithubIcon },
+  { label: "GitHub", value: "Yousef-Shohber", href: site.links.github, Icon: GithubIcon },
   { label: "WhatsApp", value: site.phoneDisplay, href: site.links.whatsapp, Icon: WhatsappIcon },
   { label: "Facebook", value: "Yousef Shohber", href: site.links.facebook, Icon: FacebookIcon },
 ];

@@ -48,7 +48,7 @@ export const propflow: Project = {
     },
     {
       label: "Source on GitHub",
-      href: "https://github.com/Joo-Shohber/Prop-Flow",
+      href: "https://github.com/Yousef-Shohber/Prop-Flow",
       kind: "github",
     },
   ],
@@ -108,7 +108,7 @@ export const clinic: Project = {
   links: [
     {
       label: "Source on GitHub",
-      href: "https://github.com/Joo-Shohber/Clinic-System",
+      href: "https://github.com/Yousef-Shohber/Clinic-System",
       kind: "github",
     },
   ],
@@ -191,7 +191,7 @@ export const eventBooking: Project = {
   links: [
     {
       label: "Source on GitHub",
-      href: "https://github.com/Joo-Shohber/Booking-System",
+      href: "https://github.com/Yousef-Shohber/Booking-System",
       kind: "github",
     },
   ],
@@ -290,7 +290,7 @@ export const moreWork: IndexProject[] = [
       },
       {
         label: "GitHub",
-        href: "https://github.com/Joo-Shohber/Nest-JS",
+        href: "https://github.com/Yousef-Shohber/Nest-JS",
         kind: "github",
       },
     ],
@@ -312,7 +312,7 @@ export const moreWork: IndexProject[] = [
     links: [
       {
         label: "GitHub",
-        href: "https://github.com/Joo-Shohber/FreelanceHub",
+        href: "https://github.com/Yousef-Shohber/FreelanceHub",
         kind: "github",
       },
     ],
@@ -325,7 +325,7 @@ export const moreWork: IndexProject[] = [
     links: [
       {
         label: "GitHub",
-        href: "https://github.com/Joo-Shohber/Restaurant",
+        href: "https://github.com/Yousef-Shohber/Restaurant",
         kind: "github",
       },
     ],
@@ -338,7 +338,7 @@ export const moreWork: IndexProject[] = [
     links: [
       {
         label: "GitHub",
-        href: "https://github.com/Joo-Shohber/Blog-App",
+        href: "https://github.com/Yousef-Shohber/Blog-App",
         kind: "github",
       },
     ],

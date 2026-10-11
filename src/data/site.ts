@@ -13,9 +13,7 @@ export const site = {
   phoneDisplay: "+20 150 158 0498",
   cv: "/files/Yousef-Shohber-CV.pdf",
   links: {
-    github: "https://github.com/Joo-Shohber",
-    // The CV links to this profile URL. The previous portfolio used two different
-    // LinkedIn URLs; confirm this is the canonical one.
+    github: "https://github.com/Yousef-Shohber",
     linkedin: "https://www.linkedin.com/in/yousef-shohber-389280314/",
     whatsapp: "https://wa.me/201501580498",
     facebook: "https://www.facebook.com/yousef.m.abdelrahman",
