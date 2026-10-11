@@ -32,7 +32,7 @@ export function Hero() {
             </p>
 
             <h1
-              className="rise mt-8 font-serif text-[clamp(3.1rem,8.2vw,7.6rem)] leading-[0.94] tracking-[-0.03em]"
+              className="rise mt-8 font-serif text-[clamp(2.8rem,7.2vw,6.8rem)] leading-[0.94] tracking-[-0.03em]"
               style={{ "--d": "100ms" } as React.CSSProperties}
             >
               <span className="sr-only">
