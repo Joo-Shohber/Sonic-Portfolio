@@ -35,6 +35,7 @@ export const propflow: Project = {
     "TypeORM",
     "Redis",
     "JWT",
+    "Resource Level Authorization",
     "Google OAuth",
     "Zod",
     "Cloudinary",
