@@ -27,7 +27,7 @@ export const propflow: Project = {
   title: "PropFlow",
   subtitle: "Property & rental management API",
   summary:
-    "One workflow for the operational lifecycle of rental properties: properties and units, tenants, lease contracts, payments and maintenance requests, with explicit roles for tenants, owners, maintenance staff and admins so that data stays consistent and visible to the right people.",
+    "One workflow for the operational lifecycle of rental properties: properties and units, tenants, lease contracts and maintenance requests, with explicit roles for tenants, owners, maintenance staff and admins so that data stays consistent and visible to the right people.",
   stack: [
     "NestJS",
     "TypeScript",
